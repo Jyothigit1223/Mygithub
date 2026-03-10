@@ -1,5 +1,5 @@
 name: Run my file
-0n: [push]
+on: [push]
 jobs:
   run-python:
     runs-on: ubuntu-latest
@@ -9,4 +9,4 @@ jobs:
         - name: setup Python
           uses: actions/setup-python@v4
         - name: Run python script
-          rub: python even.py
+          run: python even.py
